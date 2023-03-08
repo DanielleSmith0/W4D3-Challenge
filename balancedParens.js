@@ -73,3 +73,20 @@ console.log(isBalanced(sample3));
 console.log(isBalanced(sample4));
 
 //This is more similar to how you originally planned. Try running something before second-guessing yourself.
+
+//OR
+
+// const balanced = (str) => {
+//     let open = 0;
+//     let close = 0;
+  
+//     str.split("").forEach(ltr => {
+//       if(close > open) return false;
+//       if(ltr === "(") open++;
+//       else if(ltr === ")") close++;
+//     });
+  
+//     return open === close;
+//   };
+  
+//   console.log(balanced("(hello)"))
